@@ -1,10 +1,9 @@
 package fp.daw.examen2ev;
 
-public class Camion extends TransporteMercancía {
+public class Furgoneta extends TransporteMercancía {
 
-	public Camion(String matricula, float toneladas) {
+	public Furgoneta(String matricula, float toneladas) {
 		super(matricula, toneladas);
-		precioalquiler += 40;
 	}
 
 	@Override
@@ -14,7 +13,7 @@ public class Camion extends TransporteMercancía {
 
 	@Override
 	public String toString() {
-		return "Camion [ " + super.toString() + " ]";
+		return "Furgoneta [ " + super.toString() + " ]";
 	}
 
 }
