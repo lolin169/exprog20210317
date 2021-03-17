@@ -1,4 +1,4 @@
-package fp.daw.examen2ev.Ejercicio1;
+package fp.daw.examen2ev;
 
 public abstract class Empresa implements Alquilable {
 

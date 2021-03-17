@@ -1,4 +1,4 @@
-package fp.daw.examen2ev.Ejercicio1;
+package fp.daw.examen2ev;
 
 public class Coche extends Vehículo {
 
