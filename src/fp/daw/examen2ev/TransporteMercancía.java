@@ -7,7 +7,7 @@ public abstract class TransporteMercancía extends Vehículo {
 	public TransporteMercancía(String matricula, float toneladas) {
 		super(matricula);
 		this.toneladas = toneladas;
-		 precioalquiler=preciobase + (toneladas * 20);
+		precioalquiler = preciobase + (toneladas * 20);
 	}
 
 	@Override

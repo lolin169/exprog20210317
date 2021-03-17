@@ -28,7 +28,7 @@ public abstract class Vehículo extends Empresa {
 
 	@Override
 	public String toString() {
-		return "matricula=" + matricula + ", preciobase=" + preciobase;
+		return "matricula=" + matricula;
 	}
 
 }

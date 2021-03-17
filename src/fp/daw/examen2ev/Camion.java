@@ -14,7 +14,7 @@ public class Camion extends TransporteMercancía {
 
 	@Override
 	public String toString() {
-		return "Camion [ " + super.toString() + " ]";
+		return "Camion [ " + super.toString() + ", precio alquiler=" + precioalquiler + " ]";
 	}
 
 }

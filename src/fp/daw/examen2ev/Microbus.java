@@ -17,7 +17,7 @@ public class Microbus extends Vehículo {
 
 	@Override
 	public String toString() {
-		return "Microbus [ " + super.toString() + ", plazas=" + plazas + "]";
+		return "Microbus [ " + super.toString() + ", precio alquiler= " + precioalquiler + ", plazas=" + plazas + "]";
 	}
 
 }

@@ -13,7 +13,7 @@ public class Furgoneta extends TransporteMercancía {
 
 	@Override
 	public String toString() {
-		return "Furgoneta [ " + super.toString() + " ]";
+		return "Furgoneta [ " + super.toString() + ", precio alquiler= " + precioalquiler + " ]";
 	}
 
 }

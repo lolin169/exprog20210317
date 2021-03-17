@@ -18,7 +18,7 @@ public class Coche extends Vehículo {
 
 	@Override
 	public String toString() {
-		return "Coche [ " + super.toString() + ", plazas=" + plazas + "]";
+		return "Coche [ " + super.toString() + ", precio alquiler= " + precioalquiler + ", plazas=" + plazas + "]";
 	}
 
 }

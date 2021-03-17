@@ -16,7 +16,8 @@ public class LocalesComerciales extends Empresa {
 
 	@Override
 	public String toString() {
-		return String.format("LocalesComerciales [ " + super.toString() + ", RefCatastral=" + RefCatastral + " ]").replace(", ", "");
+		return String.format("LocalesComerciales [ " + super.toString() + ", RefCatastral=" + RefCatastral + " ]")
+				.replace(", ", "");
 	}
 
 }
